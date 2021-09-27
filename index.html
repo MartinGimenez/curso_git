@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primera página</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 <body>
     <p>algo como para escribirc</p>
     <p>los origamis son buenos</p>
-    <p>modificacio hecha en GitHub</p>
+    
+    <div class="container">
+        <div class="section">
+            <button class="btn" id="boton1">Cliquea</button>
+        </div>
+
+
+        <div class="section">
+            <button class="btn" id="boton2">Json</button>
+
+            <table id="tabla">
+                <thead>
+                    <tr>Titulo</tr>
+                    <tr>Artista</tr>
+                </thead>
+                <tbody id="res"></tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+    <script src="ajax.js"></script>
 </body>
 </html>
